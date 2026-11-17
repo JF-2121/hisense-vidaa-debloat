@@ -1,0 +1,8 @@
+# Private Laufzeitdaten – niemals committen
+.state/
+backup_*/
+*.pcap
+*.pcapng
+.venv
+__pycache__/
+.DS_Store

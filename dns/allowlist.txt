@@ -1,0 +1,12 @@
+img.vidaahub.com
+netflix.com
+netflix.net
+nflxvideo.net
+nflximg.net
+nflxext.com
+nflxso.net
+youtube.com
+googlevideo.com
+ytimg.com
+ggpht.com
+youtubei.googleapis.com

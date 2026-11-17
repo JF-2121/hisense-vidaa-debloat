@@ -1,0 +1,68 @@
+[
+  {
+    "sourceid": "TV",
+    "sourcename": "TV",
+    "displayname": "TV Channels▶",
+    "displayname2": "",
+    "httpIcon": "",
+    "is_signal": "0",
+    "has_signal": "1",
+    "is_lock": "0",
+    "hotel_mode": "0"
+  },
+  {
+    "sourceid": "HDMI1",
+    "sourcename": "HDMI1",
+    "displayname": "HDMI1",
+    "displayname2": "",
+    "httpIcon": "",
+    "is_signal": "1",
+    "has_signal": "0",
+    "is_lock": "0",
+    "hotel_mode": "0"
+  },
+  {
+    "sourceid": "HDMI2",
+    "sourcename": "HDMI2",
+    "displayname": "HDMI2",
+    "displayname2": "",
+    "httpIcon": "",
+    "is_signal": "0",
+    "has_signal": "0",
+    "is_lock": "0",
+    "hotel_mode": "0"
+  },
+  {
+    "sourceid": "HDMI3",
+    "sourcename": "HDMI3",
+    "displayname": "HDMI3",
+    "displayname2": "",
+    "httpIcon": "",
+    "is_signal": "0",
+    "has_signal": "0",
+    "is_lock": "0",
+    "hotel_mode": "0"
+  },
+  {
+    "sourceid": "AVS",
+    "sourcename": "AV",
+    "displayname": "AV",
+    "displayname2": "",
+    "httpIcon": "",
+    "is_signal": "0",
+    "has_signal": "0",
+    "is_lock": "0",
+    "hotel_mode": "0"
+  },
+  {
+    "sourceid": "MusicSharing",
+    "sourcename": "Music Sharing",
+    "displayname": "Musikfreigabe",
+    "displayname2": "",
+    "httpIcon": "",
+    "is_signal": "0",
+    "has_signal": "1",
+    "is_lock": "0",
+    "hotel_mode": "0"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "audio_capture_supported": 0,
+  "audio_capture_version": 0,
+  "brand": "his",
+  "capability": "2025011003",
+  "chipplatform": "MTK9602",
+  "deviceid": "<maskiert>",
+  "fake_sleep": 1,
+  "fake_sleep_state": 1,
+  "featurecode": "<maskiert>",
+  "is_support_long_press": 1,
+  "is_support_mouse": 1,
+  "screen_capture_supported": 0,
+  "tuner_num": 1,
+  "uVersion": "V0000.09.09F"
+}

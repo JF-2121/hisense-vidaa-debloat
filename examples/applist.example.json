@@ -1,0 +1,452 @@
+[
+  {
+    "url": "https://svc83.cdn.tv.telekom.net/HTMLsmartTV/Hisense/productionRelease/index.html",
+    "isunInstalled": true,
+    "name": "MagentaTV",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2567",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://www.crunchyroll.com/tetsuo/hisense-vidaa/",
+    "isunInstalled": true,
+    "name": "Crunchyroll",
+    "from": "app-store",
+    "storeType": 99,
+    "appId": "2372",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "youtube",
+    "isunInstalled": true,
+    "name": "YouTube",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "3",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "netflix",
+    "isunInstalled": true,
+    "name": "Netflix",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "1",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://atve.tv.apple.com/94819831-5404-4438-810e-afb648d6a826/tvw_1dc2aab0a313427dbc11818be8a18bd9/",
+    "isunInstalled": true,
+    "name": "Apple TV",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "351",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://cd-dmgz.bamgrid.com/bbd/hisense_tv/index.html",
+    "isunInstalled": true,
+    "name": "Disney+",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "295",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://api-portal-v3.netrange.com/portal/v3/appredir?PrKey=645e94eb48044bb07a88090c250b472f842d77ee&AppId=190",
+    "isunInstalled": true,
+    "name": "ARD Mediathek",
+    "from": "app-store",
+    "storeType": 93,
+    "appId": "2139",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://vidaa.play.max.com/",
+    "isunInstalled": true,
+    "name": "HBO Max",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2378",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "amazon",
+    "isunInstalled": true,
+    "name": "Prime Video",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "2",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://hisense.rtlde.bedrock.tech/",
+    "isunInstalled": true,
+    "name": "RTL TVNOW",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "300",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://tvmodules-vidaa.vidaahub.com/home-os/V1.0/index-home-os.html?canLaunchingVidaaTV=true",
+    "isunInstalled": true,
+    "name": "V Home",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2562",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://prod-hisense-ui40-app.rakuten.tv/",
+    "isunInstalled": true,
+    "name": "Rakuten TV",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "65",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://tv2.deezer.com/hisense",
+    "isunInstalled": true,
+    "name": "DEEZER",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "47",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://tv.dazn.com/app/vidaa/",
+    "isunInstalled": true,
+    "name": "DAZN",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "162",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://app-hisense.pluto.tv/",
+    "isunInstalled": true,
+    "name": "Pluto TV - It’s Free TV",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "173",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://new-hbbtv.zdf.de/hisense.html",
+    "isunInstalled": true,
+    "name": "ZDF",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "187",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://hisense.chili.com",
+    "isunInstalled": true,
+    "name": "Chili",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "73",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://maxdomesmarttv3.meinvod.de/",
+    "isunInstalled": true,
+    "name": "Maxdome",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "143",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://france24.tv.dotscreen.com/hisense/index.html?languages=EN,FR,ES,AR",
+    "isunInstalled": true,
+    "name": "France24",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "372",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://ott-apps.fite.tv/hisense/index.html",
+    "isunInstalled": true,
+    "name": "Triller TV.",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "245",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://dice-tv.imggaming.com/vidaa/dce.uefatv/index.html#/",
+    "isunInstalled": true,
+    "name": "UEFA.tv",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "244",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://vidaa-v2.redbull.tv",
+    "isunInstalled": true,
+    "name": "Red Bull TV",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "79",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://api-partner.spotify.com/tvapp?platform=vidaa",
+    "isunInstalled": true,
+    "name": "Spotify : Music & Podcasts",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2256",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "vidaa-store",
+    "isunInstalled": false,
+    "name": "APP STORE",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "164",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "browser",
+    "isunInstalled": false,
+    "name": "TV Browser",
+    "from": "preset",
+    "storeType": 100,
+    "appId": "16",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "vidaa-free",
+    "isunInstalled": false,
+    "name": "Vod On Demand",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "184",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://cweb-ott.nba.com/",
+    "isunInstalled": true,
+    "name": "NBA",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "293",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://html5.toongoggles.com/",
+    "isunInstalled": true,
+    "name": "ToonGoggles",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "36",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://app.plex.tv/tv-vidaa",
+    "isunInstalled": true,
+    "name": "Plex",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "42",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "file:///APPS/emanual/Local_ebook/index.html",
+    "isunInstalled": false,
+    "name": "E-Manual",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "166",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "file:///APPS/emanual/Local_ebook/index.html?fromTransparency=1",
+    "isunInstalled": true,
+    "name": "Richtlinien",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "296",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://www.intl.paramountplus.com/smart-console-apps/vidaa/",
+    "isunInstalled": true,
+    "name": "Paramount+",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "334",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "kidsLauncher",
+    "isunInstalled": false,
+    "name": "VIDAA Kids",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2181",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://tvmodules-vidaa.vidaahub.com/publicvalue/V1.0/index-publicvalue.html",
+    "isunInstalled": false,
+    "name": "Public value",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2081",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://live.prd.ott.s.joyn.de/?platform=vidaa",
+    "isunInstalled": true,
+    "name": "JOYN",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "1908",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://tv.clients.nowtv.com/vidaa-nowdeutschland.html?classicTerritory=DE&DCMP=VIDAAWNOWAPPTILE",
+    "isunInstalled": true,
+    "name": "WOW",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2201",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://zattoo-vidaa.zattoo.com",
+    "isunInstalled": true,
+    "name": "ZATTOO",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "1748",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://dn6q4f0q0kh23.cloudfront.net/receiver/hisense/haystackreceiver.html",
+    "isunInstalled": true,
+    "name": "Haystack TV Local + World News",
+    "from": "preset",
+    "storeType": 98,
+    "appId": "227",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://tvapps.o2online.de/45/vidaa/redirector/APP/",
+    "isunInstalled": true,
+    "name": "O2 TV",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2484",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://tvmodules-vidaa.vidaahub.com/vidaa-art/V1.0/index-vidaa-art.html",
+    "isunInstalled": false,
+    "name": "VIDAA Art",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2243",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "vidaa-plus",
+    "isunInstalled": false,
+    "name": "TV Channels▶",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "284",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://tv-production.mubi.com/vidaa/4.0.0/",
+    "isunInstalled": true,
+    "name": "MUBI",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "230",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://tv.onvesper.com/vidaa/dce.ufc/index.html",
+    "isunInstalled": true,
+    "name": "UFC",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "355",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://ads-privacy.vidaahub.com/",
+    "isunInstalled": false,
+    "name": "Ads Privacy",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2470",
+    "move": true,
+    "isFav": true
+  },
+  {
+    "url": "https://vidaa.waipu.tv/",
+    "isunInstalled": true,
+    "name": "waipu.tv – Live TV Streaming",
+    "from": "preset",
+    "storeType": 99,
+    "appId": "2414",
+    "move": true,
+    "isFav": true
+  }
+]

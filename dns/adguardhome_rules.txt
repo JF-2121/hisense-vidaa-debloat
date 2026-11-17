@@ -1,0 +1,14 @@
+! Hisense VIDAA – identische Logik für AdGuard Home (z. B. später auf dem Mac mini)
+! Nur für den TV-Client anwenden (Clients → <TV-MAC>)
+||vidaahub.com^$client='<TV-MAC>'
+||hismarttv.com^$client='<TV-MAC>'
+||samba.tv^
+||alphonso.tv^
+||tvinteractive.tv^
+@@||img.vidaahub.com^
+@@||recommend-ui-eu.vidaahub.com^
+@@||detail-ui-eu.vidaahub.com^
+@@||content-recommendation.hismarttv.com^
+@@||api-recommendation.hismarttv.com^
+@@||api-recommendation-eu.hismarttv.com^
+@@||api-recommendation-em.hismarttv.com^
