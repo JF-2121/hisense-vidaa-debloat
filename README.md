@@ -148,7 +148,3 @@ Vor dem Neuinstallieren `hismarttv.com` im DNS-Filter freigeben. Die DNS-Sperre 
 [vidaa-control](https://github.com/tombabolewski/vidaa-control) · [pyvidaa Protokollanalyse](https://github.com/warrenrees/pyvidaa) · [cleanyour.tv](https://cleanyour.tv/not-android) · [ipanalytics VIDAA-Blocklist](https://github.com/ipanalytics/Hisense-VIDAA-DNS-Clean-TV-Blocklist) · [Okazakee tv-dns-blocklist](https://github.com/Okazakee/tv-dns-blocklist)
 
 Kein offizielles Hisense- oder VIDAA-Projekt.
-
-## Lizenz
-
-[MIT-LIZENZ](https://github.com/JF-2121/hisense-vidaa-debloat/edit/main/LICENCE)
