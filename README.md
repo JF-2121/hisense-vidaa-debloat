@@ -1,5 +1,7 @@
 # Hisense VIDAA Debloat: ohne Werbung, auf das Nötigste reduziert, umkehrbar
 
+🇬🇧 [English version](README.en.md)
+
 Mit diesem Repo räumst du einen Hisense-TV mit **VIDAA OS** vom Mac aus auf, ohne Root, ADB oder SSH:
 
 - **Keine Werbung auf dem Homescreen:** Werbebanner, „Empfohlen für dich“ und Feed-Module werden per DNS gesperrt.
