@@ -18,6 +18,8 @@ Getestet an einem Hisense **43A53FEVS** (MediaTek MTK9602, Firmware `V0006.09.09
 ## DNS-Sperre
 
 - `vidaahub.com` und `hismarttv.com` komplett zu sperren und nur `img.vidaahub.com` freizugeben, funktioniert: **Banner und Feed-Module sind weg, Netflix und YouTube laufen**.
+- **Ausnahme `vidaa-base-auth-eu.vidaahub.com`:** Ist sie gesperrt, startet YouTube zunächst noch mit dem zwischengespeicherten Token. Nach etwa einem Tag oder einem Neustart lässt sich YouTube dann nicht mehr öffnen. Im NextDNS-Protokoll ist sie beim YouTube-Start die einzige geblockte Domain. Die Freigabe behebt das, und die Werbe-Module bleiben trotzdem gesperrt.
+- Optional sperrbar: `eligibility-panelresearch.googlevideo.com` (YouTube-Marktforschung). Der Rest von `googlevideo.com` muss frei bleiben, weil die Videos von dort kommen.
 - Nebenwirkung: Bei aktiver Sperre fehlt das **Bearbeiten-Menü der Leiste**. Systemapps lassen sich dann nicht entfernen. Vermutete Ursache: Die Launcher-Cloud (`api-launcher-*.hismarttv.com`) und die Anmeldung (`vidaa-base-auth-eu.vidaahub.com`) sind nicht erreichbar. **Darum zuerst die Leiste aufräumen und erst danach die DNS-Sperre aktivieren.**
 - Auch App Store, Firmware-Updates und VIDAA-Konto funktionieren nicht, solange `hismarttv.com` gesperrt ist. Für ein Update vorübergehend entsperren.
 - **Keinen ungefilterten zweiten DNS** wie `94.140.14.14` eintragen. Der TV fragt beide Server parallel an, ein Teil der Werbung käme durch.

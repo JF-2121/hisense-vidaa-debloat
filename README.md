@@ -103,6 +103,7 @@ Den Vorher-Wert vor jedem Umschalten **ablesen und in `rollback_state.json` eint
 1. Auf nextdns.io ein **Profil anlegen**.
 2. Unter **Denylist** jede Zeile aus [`dns/denylist.txt`](dns/denylist.txt) eintragen. Das sperrt auch alle Unterdomains.
 3. Unter **Allowlist** jede Zeile aus [`dns/allowlist.txt`](dns/allowlist.txt) eintragen. Freigaben haben Vorrang.
+   ⚠️ **`vidaa-base-auth-eu.vidaahub.com` muss frei bleiben.** Ohne diese Geräteanmeldung startet YouTube auf VIDAA nicht mehr, sobald das zwischengespeicherte Token abgelaufen ist (nach etwa einem Tag oder einem Neustart). Netflix ist davon nicht betroffen.
 4. Unter **Einrichtung → Verknüpfte IP** auf **„IP verknüpfen“** klicken und darunter einen **DDNS-Hostnamen** eintragen, z. B. deine MyFRITZ!-Adresse.
 5. Unter **Einstellungen → Protokolle** das Protokoll einschalten, sonst kannst du nichts prüfen.
 6. Am TV unter Einstellungen → Netzwerk → Netzwerkkonfiguration → DNS **Manuell** wählen und beide NextDNS-IPv4-Adressen eintragen. **Keinen** ungefilterten DNS als zweiten Server angeben.

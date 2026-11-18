@@ -103,6 +103,7 @@ Then check:
 1. **Create a profile** at nextdns.io.
 2. Under **Denylist**, add each line of [`dns/denylist.txt`](dns/denylist.txt). This also blocks all subdomains.
 3. Under **Allowlist**, add each line of [`dns/allowlist.txt`](dns/allowlist.txt). The allowlist overrides the denylist.
+   ⚠️ **Keep `vidaa-base-auth-eu.vidaahub.com` allowed.** Without this device sign-in, YouTube on VIDAA stops launching once the cached token expires (after about a day or a reboot). Netflix is not affected.
 4. Under **Setup → Linked IP**, click **"Link IP"**, and below it add a **DDNS hostname**, for example your router's dynamic DNS name.
 5. Turn on logging under **Settings → Logs**, otherwise you can't check anything.
 6. On the TV, go to Settings → Network → Network Configuration → DNS, choose **Manual** and enter both NextDNS IPv4 addresses. **Do not** add an unfiltered DNS as the second server.
