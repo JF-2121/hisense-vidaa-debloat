@@ -104,7 +104,7 @@ Den Vorher-Wert vor jedem Umschalten **ablesen und in `rollback_state.json` eint
 2. Unter **Denylist** jede Zeile aus [`dns/denylist.txt`](dns/denylist.txt) eintragen. Das sperrt auch alle Unterdomains.
 3. Unter **Allowlist** jede Zeile aus [`dns/allowlist.txt`](dns/allowlist.txt) eintragen. Freigaben haben Vorrang.
    ⚠️ **`vidaa-base-auth-eu.vidaahub.com` muss frei bleiben.** Ohne diese Geräteanmeldung startet YouTube auf VIDAA nicht mehr, sobald das zwischengespeicherte Token abgelaufen ist (nach etwa einem Tag oder einem Neustart). Netflix ist davon nicht betroffen.
-   Hinweis: `googlevideo.com` gehört **nicht** auf die Allowlist, sonst hebt sie die Sperre der YouTube-Marktforschung (`eligibility-panelresearch.googlevideo.com`) auf.
+   ⚠️ **Niemals Unterdomains der App-Anbieter sperren** (`googlevideo.com`, `youtube.com`, `netflix.com`, `amazon.*` …). Die Allowlist schützt sie absichtlich komplett. Beispiel: Die Sperre von `eligibility-panelresearch.googlevideo.com` hat YouTube nach zwei Tagen lahmgelegt.
 4. Unter **Einrichtung → Verknüpfte IP** auf **„IP verknüpfen“** klicken und darunter einen **DDNS-Hostnamen** eintragen, z. B. deine MyFRITZ!-Adresse.
 5. Unter **Einstellungen → Protokolle** das Protokoll einschalten, sonst kannst du nichts prüfen.
 6. Am TV unter Einstellungen → Netzwerk → Netzwerkkonfiguration → DNS **Manuell** wählen und beide NextDNS-IPv4-Adressen eintragen. **Keinen** ungefilterten DNS als zweiten Server angeben.
@@ -138,6 +138,20 @@ Vor dem Neuinstallieren `hismarttv.com` im DNS-Filter freigeben. Die DNS-Sperre 
 - **Firmware-Update:** In NextDNS `hismarttv.com` vorübergehend von der Sperrliste nehmen und danach wieder eintragen.
 - **NextDNS-Kontingent:** Nach etwa einer Woche unter **Analysen** nachrechnen. Der Gratistarif hat 300.000 Anfragen pro Monat; danach wird zwar weiter aufgelöst, aber nicht mehr gefiltert.
 - **Schneller wird der TV durch:** ACR und Sprachassistent aus, weniger Kacheln, gelegentlich ein Neustart per Stecker. Bildeinstellungen bringen dafür nichts.
+
+### Änderungen am DNS-Filter ohne Ausfall
+
+Beide YouTube-Ausfälle im Test kamen **verzögert**, einmal nach einem Tag und einmal nach zwei Tagen, weil der TV Tokens und Prüfergebnisse zwischenspeichert. Ein Sofort-Test nach einer Änderung sagt also wenig. Deshalb:
+
+1. **Nur eine Änderung auf einmal** und notieren, was du geändert hast (Datum, Domain).
+2. Nur Hersteller-Domains sperren (`vidaahub.com`, `hismarttv.com`, Werbe-Anbieter), **nie** Domains der Apps, die du nutzt.
+3. Danach: `sh dns/verify_dns.sh <NextDNS-IP>` muss `ERGEBNIS: alles OK` melden.
+4. TV **per Netzstecker** neu starten und alle Apps einmal öffnen.
+5. Nach **48 Stunden** alle Apps noch einmal testen. Erst dann ist die Änderung bestätigt.
+
+**Wenn eine App ausfällt:**
+1. Zuerst die **letzte Änderung zurücknehmen**.
+2. Läuft die App dann noch nicht: Im NextDNS-Protokoll den Filter **„Nur blockierte“** setzen, die App öffnen und die roten Einträge der nächsten 10 Sekunden ansehen. Die passende Domain einzeln auf die Allowlist setzen.
 
 ## Dokumentation
 

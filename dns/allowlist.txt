@@ -7,6 +7,7 @@ nflximg.net
 nflxext.com
 nflxso.net
 youtube.com
+googlevideo.com
 ytimg.com
 ggpht.com
 youtubei.googleapis.com

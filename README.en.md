@@ -104,7 +104,7 @@ Then check:
 2. Under **Denylist**, add each line of [`dns/denylist.txt`](dns/denylist.txt). This also blocks all subdomains.
 3. Under **Allowlist**, add each line of [`dns/allowlist.txt`](dns/allowlist.txt). The allowlist overrides the denylist.
    ⚠️ **Keep `vidaa-base-auth-eu.vidaahub.com` allowed.** Without this device sign-in, YouTube on VIDAA stops launching once the cached token expires (after about a day or a reboot). Netflix is not affected.
-   Note: do **not** put `googlevideo.com` on the allowlist, or it overrides the block on YouTube's market-research host (`eligibility-panelresearch.googlevideo.com`).
+   ⚠️ **Never block subdomains of the app providers** (`googlevideo.com`, `youtube.com`, `netflix.com`, `amazon.*` …). The allowlist deliberately protects them in full. For example, blocking `eligibility-panelresearch.googlevideo.com` broke YouTube two days later.
 4. Under **Setup → Linked IP**, click **"Link IP"**, and below it add a **DDNS hostname**, for example your router's dynamic DNS name.
 5. Turn on logging under **Settings → Logs**, otherwise you can't check anything.
 6. On the TV, go to Settings → Network → Network Configuration → DNS, choose **Manual** and enter both NextDNS IPv4 addresses. **Do not** add an unfiltered DNS as the second server.
@@ -140,6 +140,20 @@ Before reinstalling apps, allow `hismarttv.com` in your DNS filter. To lift the 
 - **Firmware update:** remove `hismarttv.com` from the NextDNS denylist for the update, then add it back.
 - **NextDNS quota:** check **Analytics** after about a week. The free plan allows 300,000 queries a month; after that, NextDNS keeps resolving but stops filtering.
 - **To make the TV feel faster:** turn off ACR and the voice assistant, keep fewer tiles, and unplug it now and then. Picture settings (MEMC, noise reduction) don't help with speed.
+
+### Changing the DNS filter without breaking things
+
+Both YouTube outages during testing appeared **with a delay**, once after a day and once after two days, because the TV caches tokens and check results. A test straight after a change tells you little. So:
+
+1. **One change at a time**, and note what you changed (date, domain).
+2. Only block manufacturer domains (`vidaahub.com`, `hismarttv.com`, ad providers), **never** domains of apps you use.
+3. Afterwards, `sh dns/verify_dns.sh <NextDNS-IP>` must report `ERGEBNIS: alles OK` (all OK).
+4. Restart the TV **by unplugging it** and open every app once.
+5. Test all apps again after **48 hours**. Only then is the change confirmed.
+
+**If an app breaks:**
+1. **Undo the last change** first.
+2. If the app still fails: set the NextDNS log filter to **"Blocked only"**, open the app and look at the red entries from the next 10 seconds. Allowlist the matching domain on its own.
 
 ## Documentation
 
