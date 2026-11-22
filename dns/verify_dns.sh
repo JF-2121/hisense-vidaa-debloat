@@ -14,7 +14,7 @@ for d in tvmodules-vidaa.vidaahub.com rsc-ads.vidaahub.com rpt-mntz-azure.vidaah
          recommend-ui-eu.vidaahub.com detail-ui-eu.vidaahub.com content-recommendation.hismarttv.com api-recommendation-eu.hismarttv.com \
          ter-jrnl-eu.vidaahub.com tracking-vss.vidaahub.com abtest-tv.vidaahub.com api.eu.hismarttv.com; do chk $d BLOCK; done
 # Kritisch: Ist einer dieser Hosts gesperrt, starten YouTube/Netflix nicht (teils erst Tage später, wegen Cache).
-for d in vidaa-base-auth-eu.vidaahub.com eligibility-panelresearch.googlevideo.com redirector.googlevideo.com \
+for d in vidaa-base-auth-eu.vidaahub.com auth-eu.hismarttv.com eligibility-panelresearch.googlevideo.com redirector.googlevideo.com \
          img.vidaahub.com www.netflix.com api-global.netflix.com assets.nflxext.com www.youtube.com youtubei.googleapis.com \
          i.ytimg.com www.primevideo.com atv-ps-eu.amazon.com m.media-amazon.com; do chk $d ALLOW; done
 [ $FAIL = 0 ] && echo "ERGEBNIS: alles OK" || echo "ERGEBNIS: FEHLER – letzte Änderung am DNS-Filter zurücknehmen!"

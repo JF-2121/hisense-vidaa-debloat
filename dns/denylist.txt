@@ -3,3 +3,8 @@ hismarttv.com
 samba.tv
 alphonso.tv
 tvinteractive.tv
+content-recommendation.hismarttv.com
+api-recommendation.hismarttv.com
+api-recommendation-eu.hismarttv.com
+api-recommendation-em.hismarttv.com
+api-4know-eu.hismarttv.com

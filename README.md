@@ -104,11 +104,13 @@ Den Vorher-Wert vor jedem Umschalten **ablesen und in `rollback_state.json` eint
 2. Unter **Denylist** jede Zeile aus [`dns/denylist.txt`](dns/denylist.txt) eintragen. Das sperrt auch alle Unterdomains.
 3. Unter **Allowlist** jede Zeile aus [`dns/allowlist.txt`](dns/allowlist.txt) eintragen. Freigaben haben Vorrang.
    ⚠️ **`vidaa-base-auth-eu.vidaahub.com` muss frei bleiben.** Ohne diese Geräteanmeldung startet YouTube auf VIDAA nicht mehr, sobald das zwischengespeicherte Token abgelaufen ist (nach etwa einem Tag oder einem Neustart). Netflix ist davon nicht betroffen.
+   ⚠️ **Auch `auth-eu.hismarttv.com` muss frei bleiben.** Das ist dieselbe Geräteanmeldung unter einer zweiten Adresse. Ist sie gesperrt, meldet YouTube **„Netzwerkfehler“**, während Netflix weiterläuft.
    ⚠️ **Niemals Unterdomains der App-Anbieter sperren** (`googlevideo.com`, `youtube.com`, `netflix.com`, `amazon.*` …). Die Allowlist schützt sie absichtlich komplett. Beispiel: Die Sperre von `eligibility-panelresearch.googlevideo.com` hat YouTube nach zwei Tagen lahmgelegt.
 4. Unter **Einrichtung → Verknüpfte IP** auf **„IP verknüpfen“** klicken und darunter einen **DDNS-Hostnamen** eintragen, z. B. deine MyFRITZ!-Adresse.
-5. Unter **Einstellungen → Protokolle** das Protokoll einschalten, sonst kannst du nichts prüfen.
-6. Am TV unter Einstellungen → Netzwerk → Netzwerkkonfiguration → DNS **Manuell** wählen und beide NextDNS-IPv4-Adressen eintragen. **Keinen** ungefilterten DNS als zweiten Server angeben.
-7. TV **per Netzstecker** neu starten.
+5. Reiter **Datenschutz** ansehen: Neue NextDNS-Profile haben oft schon eine Werbe- und Tracker-Liste aktiv (z. B. „NextDNS Ads & Trackers“). Die sperrt **zusätzlich** Hisense-Server, darunter `auth-eu.hismarttv.com`. Das ist in Ordnung, solange die Allowlist oben vollständig ist, denn sie hat Vorrang vor allen Listen.
+6. Unter **Einstellungen → Protokolle** das Protokoll einschalten, sonst kannst du nichts prüfen.
+7. Am TV unter Einstellungen → Netzwerk → Netzwerkkonfiguration → DNS **Manuell** wählen und beide NextDNS-IPv4-Adressen eintragen. **Keinen** ungefilterten DNS als zweiten Server angeben.
+8. TV **per Netzstecker** neu starten.
 
 Prüfen, vom selben Netz aus:
 

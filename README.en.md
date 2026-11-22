@@ -104,11 +104,13 @@ Then check:
 2. Under **Denylist**, add each line of [`dns/denylist.txt`](dns/denylist.txt). This also blocks all subdomains.
 3. Under **Allowlist**, add each line of [`dns/allowlist.txt`](dns/allowlist.txt). The allowlist overrides the denylist.
    ⚠️ **Keep `vidaa-base-auth-eu.vidaahub.com` allowed.** Without this device sign-in, YouTube on VIDAA stops launching once the cached token expires (after about a day or a reboot). Netflix is not affected.
+   ⚠️ **Also keep `auth-eu.hismarttv.com` allowed.** It is the same device sign-in under a second address. If it is blocked, YouTube shows **"Network error"** while Netflix keeps working.
    ⚠️ **Never block subdomains of the app providers** (`googlevideo.com`, `youtube.com`, `netflix.com`, `amazon.*` …). The allowlist deliberately protects them in full. For example, blocking `eligibility-panelresearch.googlevideo.com` broke YouTube two days later.
 4. Under **Setup → Linked IP**, click **"Link IP"**, and below it add a **DDNS hostname**, for example your router's dynamic DNS name.
-5. Turn on logging under **Settings → Logs**, otherwise you can't check anything.
-6. On the TV, go to Settings → Network → Network Configuration → DNS, choose **Manual** and enter both NextDNS IPv4 addresses. **Do not** add an unfiltered DNS as the second server.
-7. Restart the TV **by unplugging it**.
+5. Check the **Privacy** tab: new NextDNS profiles often already have an ads & trackers list enabled (e.g. "NextDNS Ads & Trackers"). It **also** blocks Hisense servers, including `auth-eu.hismarttv.com`. That's fine as long as the allowlist above is complete, because it overrides every list.
+6. Turn on logging under **Settings → Logs**, otherwise you can't check anything.
+7. On the TV, go to Settings → Network → Network Configuration → DNS, choose **Manual** and enter both NextDNS IPv4 addresses. **Do not** add an unfiltered DNS as the second server.
+8. Restart the TV **by unplugging it**.
 
 Check from the same network:
 

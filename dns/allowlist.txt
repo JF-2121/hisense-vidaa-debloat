@@ -1,5 +1,6 @@
 img.vidaahub.com
 vidaa-base-auth-eu.vidaahub.com
+auth-eu.hismarttv.com
 netflix.com
 netflix.net
 nflxvideo.net
